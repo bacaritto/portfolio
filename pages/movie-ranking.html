@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking de Filmes da Netflix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #e50914;
+            margin-top: 20px;
+        }
+        .ranking {
+            list-style: none;
+            padding: 0;
+        }
+        .ranking li {
+            background: #333;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .ranking img {
+            width: 100px;
+            height: 150px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .movie-details {
+            flex: 1;
+        }
+        .movie-title {
+            font-size: 24px;
+            margin: 0;
+        }
+        .movie-description {
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Top 10 Filmes da Netflix</h1>
+        <ul class="ranking">
+            <li>
+                <img src="https://via.placeholder.com/100x150" alt="Poster do Filme 1">
+                <div class="movie-details">
+                    <h2 class="movie-title">Filme 1</h2>
+                    <p class="movie-description">Descrição breve do Filme 1. É um filme incrível com uma história emocionante e grandes atuações.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/100x150" alt="Poster do Filme 2">
+                <div class="movie-details">
+                    <h2 class="movie-title">Filme 2</h2>
+                    <p class="movie-description">Descrição breve do Filme 2. Este filme vai te prender do início ao fim com suas reviravoltas.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/100x150" alt="Poster do Filme 3">
+                <div class="movie-details">
+                    <h2 class="movie-title">Filme 3</h2>
+                    <p class="movie-description">Descrição breve do Filme 3. Um drama comovente que toca o coração e a alma.</p>
+                </div>
+            </li>
+            <!-- Continue listando mais filmes -->
+        </ul>
+    </div>
+</body>
+</html>
